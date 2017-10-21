@@ -89,6 +89,8 @@ INFO:root:Found 0 candidate pointers
 
 Studding the output one can see, that the message fields are clearly visible from memory. Ouput only skips the memory are of the `Message` field.
 
+> `(((id    | 1234567890123456  )))(((recip | bobby@spacer.com  )))(((sender| eva@secretmoon.m  )))(((meta  | 2017-10-21 10:26  )))`
+
 ## Conclusion
 
 Using the described approach I wasn't able to extract the content of the protected buffer.
@@ -101,4 +103,4 @@ The python extraction code wouldn't be possible without prior work of [Vayu](git
 
 ## License
 
-The MIT License (MIT) — [Denis Brodbeck](https://github.com/denisbrodbeck). Please have a look at the [LICENSE.md](LICENSE.md) for more details.
+The MIT License (MIT) — [Denis Brodbeck](https://github.com/denisbrodbeck). Please have a look at the [LICENSE](LICENSE.md) for more details.
