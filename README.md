@@ -87,7 +87,7 @@ INFO:root:Scanning pid 25921 range 56a000-58c000 ;
 INFO:root:Found 0 candidate pointers
 ```
 
-Studding the output one can see, that the message fields are clearly visible from memory. Ouput only skips the memory are of the `Message` field.
+Studding the output one can see, that the message fields are clearly visible from memory. Ouput only skips the memory areas of the `Message` field.
 
 > `(((id    | 1234567890123456  )))(((recip | bobby@spacer.com  )))(((sender| eva@secretmoon.m  )))(((meta  | 2017-10-21 10:26  )))`
 
