@@ -39,7 +39,8 @@ func main() {
 		[]byte("(((meta  | 2017-10-21 10:26  )))"),
 	)
 	pid := os.Getpid()
-	fmt.Printf("Running under PID: %d\n\n", pid)
+	fmt.Println("                                                              ") // easier to spot message
+	fmt.Println("Running under PID:", pid)
 	fmt.Println("Press enter after running 'memory_reader.py' to exit...")
 	line := ""
 	fmt.Scanln(&line)
